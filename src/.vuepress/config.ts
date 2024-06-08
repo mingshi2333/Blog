@@ -9,14 +9,10 @@ export default defineUserConfig({
       lang: "en-US",
       title: "mio's blog",
     },
-    "/zh/": {
-      lang: "zh-CN",
-      title: "mio's blog",
-    },
   },
 
   theme,
 
   // Enable it with pwa
-  // shouldPrefetch: false,
+  shouldPrefetch: false,
 });
