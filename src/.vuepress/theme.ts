@@ -1,5 +1,5 @@
 import { hopeTheme } from "vuepress-theme-hope";
-import { enNavbar, zhNavbar } from "./navbar/index.js";
+import { enNavbar } from "./navbar/index.js";
 import { enSidebar } from "./sidebar/index.js";
 
 export default hopeTheme({
@@ -20,7 +20,7 @@ export default hopeTheme({
 
   blog: {
     medias: {
-      GitHub: "https://example.com",
+      GitHub: "https://mingshi2333@github.com",
     },
   },
 
